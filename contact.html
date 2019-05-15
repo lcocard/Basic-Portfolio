@@ -11,23 +11,50 @@
     <header>
         &lt;header&gt; #FFA500
     </header>
-    <section id="full">
-        <section id="left">
-                &lt;section&gt; #30948D
-                <p>About<a href="index.html">About</a> ?</p>
+    <section id="navbar_row">
+        <section id="index">
+
+                <p>About<a href="index.html">About</a></p>
         </section>
 
-        <section id="middle">
-            &lt;section&gt; #9E1212
-            <p>Portfolio<a href="portfolio.html">Portfolio</a> ?</p>
+        <section id="portfolio">
+
+            <p>Portfolio<a href="portfolio.html">Portfolio</a></p>
         </section>
 
-        <section id="right">
-            &lt;section&gt; #30948D
-            <p>Contact<a href="contact.html">Contact</a> ?</p>
+        <section id="contact">
+            
+            <p>Contact<a href="contact.html">Contact</a></p>
             
         </section>
     </section>
+
+    <div class="container">
+
+            <section id="Contact-Form">
+    
+                <h2>Contact</h2>
+    
+                <form action="/my-handling-form-page" method="post">
+                    <div>
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                      <label for="mail">E-mail:</label>
+                      <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div>
+                      <label for="msg">Message:</label>
+                      <textarea id="msg" name="user_message"></textarea>
+                    </div>
+                  </form>
+                  <div class="button">
+                        <button type="submit">Send your message</button>
+                      </div>
+            </section>
+            
+        </div>
 
 </body>
 
