@@ -47,7 +47,7 @@ header {
 }
 
 #middle {
-    float: middle;
+    float: left;
     position: relative;
     width: 33.33%;
     display: none
