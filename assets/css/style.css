@@ -38,7 +38,7 @@ header {
 #left {
     float: left;
     position: relative;
-    width: 33.34%;
+    width: 320px;
     margin: 0 0 0 0;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -49,14 +49,14 @@ header {
 #middle {
     float: left;
     position: relative;
-    width: 33.33%;
+    width: 320px;
     display: none
 }
 
 #right {
     float: right;
     position: relative;
-    width: 33.34%;
+    width: 320px;
 }
 
 #navbar_row {
@@ -92,6 +92,7 @@ header {
     line-height: 150%;
     padding: 20px 10px 20px 10px;
     margin: 10px;
+    z-index: -1;
 }
 
 h2 {
