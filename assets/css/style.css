@@ -7,10 +7,16 @@
   }
 
 body {
+    position: fixed;
+    top: 0;
+    left: calc(50% - 480px);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
     background-image: url("../images/circles-light.png");
 }
 
-header {
+/* header {
     width: 100%;
     height: 81px;
     position: fixed;
@@ -20,13 +26,14 @@ header {
     border-bottom: 2px solid #cccccc;
     padding: 0;
     margin: 0;
-}
+} */
 
 .topcontainer {  
-    width: 960px;
+ /*   width: 960px; */
     position: fixed;
     top: 0;
-    left: 20%;
+/*  left: 20%; */
+    left: calc(50% - 480px);
     background-color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #333;
@@ -50,7 +57,7 @@ header {
     float: left;
     position: relative;
     width: 320px;
-    display: none
+/*    display: none */
 }
 
 #right {
@@ -84,33 +91,48 @@ header {
 #container {
     width: 960px;
     position: relative;
-    top: 100px;
-    left: 19%;
+    top: 70px;
+/*  left: 19% */
+    left: calc(50% - 480px);
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #333;
     line-height: 150%;
-    padding: 20px 10px 20px 10px;
-    margin: 10px;
+ /*   padding: 20px 10px 20px 10px; */
+    padding: 0;
+ /*   margin: 10px; */
     z-index: -1;
+}
+
+#About-Me {
+    top: 20px;
+    width: 960px;
+ /*   left: -10px; */
+    left: calc(50% - 480px);
+    position: relative;
+    float: left;
+    background-color: #ffffff;
 }
 
 #form {
     width: 960px;
     position: relative;
-    top: 100px;
-    left: 19%;
+    top: 70px;
+ /*   left: 19%; */
+    left: calc(50% - 480px);
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #333;
     line-height: 150%;
-    padding: 20px 10px 20px 10px;
-    margin: 10px;
+ /*   padding: 20px 10px 20px 10px; */
+    padding: 0;
+ /*   margin: 10px; */
 }
 
 h2 {
     position: relative;
-    top: -10px;
+    margin: 0;;
+ /*   top: -10px; */
     padding: 20px;
     color: #4aaaa5;
     border-bottom: 2px solid #cccccc;
@@ -119,11 +141,12 @@ h2 {
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: rgba(126, 122, 122, 0.8);
+    padding: 10px;
 }
 
 #profile-picture {
     float: left;
-    padding: 20px;
+    padding: 10 px;
 }
 
 footer {
@@ -140,9 +163,20 @@ footer {
 
 img {
     padding: 10px 50px 10px 30px;
-    margin: 10px 50px 10px 30px;
+    margin: 0 50px 10px 30px;
     background-color: #ffffff;
 }
+
+#Contact-Form {
+    /*   top: 15px; */
+       top: 20px;
+       width: 960px;
+    /*   left: -10px; */
+       left: calc(50% - 480px);
+       position: relative;
+       float: left;
+       background-color: #ffffff;
+   }
 
 label {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -185,8 +219,11 @@ label {
 }
 
 #Portfolio-Page {
+ /*   top: 15px; */
+    top: 20px;
     width: 960px;
-    left: -10px;
+ /*   left: -10px; */
+    left: calc(50% - 480px);
     position: relative;
     float: left;
     background-color: #ffffff;
