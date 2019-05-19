@@ -7,8 +7,9 @@
   }
 
 body {
+    display: block;
     background-image: url("../images/circles-light.png");
-}
+  }
 
 /* Top Navigation Bar */
 
@@ -80,6 +81,7 @@ body {
     position: relative;
     top: 4.375em;
     left: calc(50% - 480px);
+    scroll-behavior: auto;
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #333;
@@ -91,7 +93,7 @@ body {
 #About-Me {
     top: 20px;
     width: 960px;
-    left: calc(50% - 480px);
+    scroll-margin-left: calc(50% - 480px);
     position: relative;
     float: left;
     background-color: #ffffff;
@@ -267,16 +269,14 @@ label {
   padding-right: 5px;
  }
 
-/* Footer */
-
  footer {
     position: fixed;
-    width: 100%;
     bottom: 0;
     left: 0;
+    width: 100%;
+    height: 50px;
     text-align: center;
-    padding: 5px;
     background-color: #666666;
     color: #4aaaa5;
-    border-top: 8px solid #4aaaa5
-}
+    border-top: 8px solid #4aaaa5;
+  }
