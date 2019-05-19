@@ -21,7 +21,7 @@
 
 body {
     display: block;
-    height: 100vh;
+    height: calc(100vh-75px);
     background-image: url("../images/circles-light.png");
   }
 
